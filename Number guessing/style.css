@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center; /* horizontally becomes center*/
+    align-items: center;/* vertically becomes center, if we want that vertically center, we must mention the height of the body*/
+    height: 100vh;
+    background-color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background-color: gold;
+    display: flex;
+    align-items: center; /* inside this container box we have many elements, for assigning that each element center,we are using align items*/
+    flex-direction: column;
+    box-shadow: 3px 5px 10px black;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    height: 25px;
+    font-size: 20px;
+}
+button{
+    background-color: crimson;
+    color: white;
+}
